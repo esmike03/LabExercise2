@@ -223,12 +223,13 @@ table.withStyle th {
   
   .pagination a {
     display: flex inline;
-    margin-left: 0;
-    
-    padding: 5px;
+    padding: 6px;
     text-decoration: none;
     border: 1px solid #ddd;
     margin-top: 15px;
+    margin-left: -4px;
+    margin-right: -4px;
+    text-align: center;
     background-color: white;
   }
   
@@ -236,6 +237,7 @@ table.withStyle th {
     background-color: #0041c3;
     color: white;
     border: 1px solid #0041c3;
+    margin-left: 0;
   }
   .pagination a.inactive {
     background-color: #f3eeee;
